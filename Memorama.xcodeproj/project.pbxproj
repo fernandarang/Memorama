@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9316DAC6432C743222CC94B /* Pods_Memorama.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3A1D0C6B672EA8216D63C1 /* Pods_Memorama.framework */; };
+		F3793184297760A10027D7F2 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3793183297760A10027D7F2 /* ConfigViewController.swift */; };
+		F3793186297765E70027D7F2 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3793185297765E70027D7F2 /* Constantes.swift */; };
+		F379318829776B870027D7F2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379318729776B870027D7F2 /* GameViewController.swift */; };
+		F3BF1B1B29808EA100F76C78 /* incognito.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BF1B1A29808EA100F76C78 /* incognito.png */; };
+		F3BF1B1E29809D3600F76C78 /* cardback.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F3BF1B1D29809D3600F76C78 /* cardback.jpeg */; };
+		F3BF1B2029809F5200F76C78 /* backcard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F3BF1B1F29809F5200F76C78 /* backcard.jpeg */; };
+		F3C3D2682978A9A700AC8460 /* count2.json in Resources */ = {isa = PBXBuildFile; fileRef = F3C3D2672978A9A700AC8460 /* count2.json */; };
+		F3C3D26A2978A9B400AC8460 /* count1.json in Resources */ = {isa = PBXBuildFile; fileRef = F3C3D2692978A9B400AC8460 /* count1.json */; };
+		F3CF77B729760A5200605F0F /* brain.json in Resources */ = {isa = PBXBuildFile; fileRef = F3CF77B629760A5200605F0F /* brain.json */; };
+		F3DFA46829721D3C006C953E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DFA46729721D3C006C953E /* AppDelegate.swift */; };
+		F3DFA46A29721D3C006C953E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DFA46929721D3C006C953E /* SceneDelegate.swift */; };
+		F3DFA46C29721D3C006C953E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DFA46B29721D3C006C953E /* ViewController.swift */; };
+		F3DFA46F29721D3C006C953E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DFA46D29721D3C006C953E /* Main.storyboard */; };
+		F3DFA47129721D3E006C953E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DFA47029721D3E006C953E /* Assets.xcassets */; };
+		F3DFA47429721D3E006C953E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DFA47229721D3E006C953E /* LaunchScreen.storyboard */; };
+		F3F761F7297B3ABA0008C3D0 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F761F6297B3ABA0008C3D0 /* ItemCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A3A1D0C6B672EA8216D63C1 /* Pods_Memorama.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memorama.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7884188B3CBB45B97F82A211 /* Pods-Memorama.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memorama.debug.xcconfig"; path = "Target Support Files/Pods-Memorama/Pods-Memorama.debug.xcconfig"; sourceTree = "<group>"; };
+		B7A3C25C0C2F9DD9AC2A0AF0 /* Pods-Memorama.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memorama.release.xcconfig"; path = "Target Support Files/Pods-Memorama/Pods-Memorama.release.xcconfig"; sourceTree = "<group>"; };
+		F3793183297760A10027D7F2 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		F3793185297765E70027D7F2 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		F379318729776B870027D7F2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F3BF1B1A29808EA100F76C78 /* incognito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incognito.png; sourceTree = "<group>"; };
+		F3BF1B1D29809D3600F76C78 /* cardback.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cardback.jpeg; sourceTree = "<group>"; };
+		F3BF1B1F29809F5200F76C78 /* backcard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backcard.jpeg; sourceTree = "<group>"; };
+		F3C3D2672978A9A700AC8460 /* count2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = count2.json; sourceTree = "<group>"; };
+		F3C3D2692978A9B400AC8460 /* count1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = count1.json; sourceTree = "<group>"; };
+		F3CF77B629760A5200605F0F /* brain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brain.json; sourceTree = "<group>"; };
+		F3DFA46429721D3C006C953E /* Memorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DFA46729721D3C006C953E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3DFA46929721D3C006C953E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3DFA46B29721D3C006C953E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3DFA46E29721D3C006C953E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3DFA47029721D3E006C953E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3DFA47329721D3E006C953E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3DFA47529721D3E006C953E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F761F6297B3ABA0008C3D0 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3DFA46129721D3C006C953E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9316DAC6432C743222CC94B /* Pods_Memorama.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A015CD18B759B6A23C5EBBA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A3A1D0C6B672EA8216D63C1 /* Pods_Memorama.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A92A8B9EFC70FDB88BA0F7D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7884188B3CBB45B97F82A211 /* Pods-Memorama.debug.xcconfig */,
+				B7A3C25C0C2F9DD9AC2A0AF0 /* Pods-Memorama.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3DFA45B29721D3C006C953E = {
+			isa = PBXGroup;
+			children = (
+				F3DFA46629721D3C006C953E /* Memorama */,
+				F3DFA46529721D3C006C953E /* Products */,
+				A92A8B9EFC70FDB88BA0F7D9 /* Pods */,
+				A015CD18B759B6A23C5EBBA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3DFA46529721D3C006C953E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3DFA46429721D3C006C953E /* Memorama.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3DFA46629721D3C006C953E /* Memorama */ = {
+			isa = PBXGroup;
+			children = (
+				F3DFA46729721D3C006C953E /* AppDelegate.swift */,
+				F3DFA46929721D3C006C953E /* SceneDelegate.swift */,
+				F3DFA46B29721D3C006C953E /* ViewController.swift */,
+				F3DFA46D29721D3C006C953E /* Main.storyboard */,
+				F3DFA47029721D3E006C953E /* Assets.xcassets */,
+				F3BF1B1A29808EA100F76C78 /* incognito.png */,
+				F3BF1B1F29809F5200F76C78 /* backcard.jpeg */,
+				F3BF1B1D29809D3600F76C78 /* cardback.jpeg */,
+				F3CF77B629760A5200605F0F /* brain.json */,
+				F3C3D2692978A9B400AC8460 /* count1.json */,
+				F3C3D2672978A9A700AC8460 /* count2.json */,
+				F3DFA47229721D3E006C953E /* LaunchScreen.storyboard */,
+				F3DFA47529721D3E006C953E /* Info.plist */,
+				F3793183297760A10027D7F2 /* ConfigViewController.swift */,
+				F3793185297765E70027D7F2 /* Constantes.swift */,
+				F379318729776B870027D7F2 /* GameViewController.swift */,
+				F3F761F6297B3ABA0008C3D0 /* ItemCollectionViewCell.swift */,
+			);
+			path = Memorama;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3DFA46329721D3C006C953E /* Memorama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3DFA47829721D3E006C953E /* Build configuration list for PBXNativeTarget "Memorama" */;
+			buildPhases = (
+				A97736952CBBA684EF464B7E /* [CP] Check Pods Manifest.lock */,
+				F3DFA46029721D3C006C953E /* Sources */,
+				F3DFA46129721D3C006C953E /* Frameworks */,
+				F3DFA46229721D3C006C953E /* Resources */,
+				B18009A7EB8B5F377E820AB6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memorama;
+			productName = Memorama;
+			productReference = F3DFA46429721D3C006C953E /* Memorama.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3DFA45C29721D3C006C953E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F3DFA46329721D3C006C953E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F3DFA45F29721D3C006C953E /* Build configuration list for PBXProject "Memorama" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3DFA45B29721D3C006C953E;
+			productRefGroup = F3DFA46529721D3C006C953E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3DFA46329721D3C006C953E /* Memorama */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3DFA46229721D3C006C953E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BF1B1B29808EA100F76C78 /* incognito.png in Resources */,
+				F3DFA47429721D3E006C953E /* LaunchScreen.storyboard in Resources */,
+				F3DFA47129721D3E006C953E /* Assets.xcassets in Resources */,
+				F3CF77B729760A5200605F0F /* brain.json in Resources */,
+				F3BF1B1E29809D3600F76C78 /* cardback.jpeg in Resources */,
+				F3BF1B2029809F5200F76C78 /* backcard.jpeg in Resources */,
+				F3C3D26A2978A9B400AC8460 /* count1.json in Resources */,
+				F3DFA46F29721D3C006C953E /* Main.storyboard in Resources */,
+				F3C3D2682978A9A700AC8460 /* count2.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A97736952CBBA684EF464B7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Memorama-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B18009A7EB8B5F377E820AB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memorama/Pods-Memorama-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memorama/Pods-Memorama-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Memorama/Pods-Memorama-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3DFA46029721D3C006C953E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3793186297765E70027D7F2 /* Constantes.swift in Sources */,
+				F3DFA46C29721D3C006C953E /* ViewController.swift in Sources */,
+				F3DFA46829721D3C006C953E /* AppDelegate.swift in Sources */,
+				F3793184297760A10027D7F2 /* ConfigViewController.swift in Sources */,
+				F379318829776B870027D7F2 /* GameViewController.swift in Sources */,
+				F3DFA46A29721D3C006C953E /* SceneDelegate.swift in Sources */,
+				F3F761F7297B3ABA0008C3D0 /* ItemCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3DFA46D29721D3C006C953E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3DFA46E29721D3C006C953E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3DFA47229721D3E006C953E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3DFA47329721D3E006C953E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3DFA47629721D3E006C953E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3DFA47729721D3E006C953E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3DFA47929721D3E006C953E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7884188B3CBB45B97F82A211 /* Pods-Memorama.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LB82Q2DXR9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Memorama/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis01.Memorama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3DFA47A29721D3E006C953E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A3C25C0C2F9DD9AC2A0AF0 /* Pods-Memorama.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LB82Q2DXR9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Memorama/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis01.Memorama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3DFA45F29721D3C006C953E /* Build configuration list for PBXProject "Memorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DFA47629721D3E006C953E /* Debug */,
+				F3DFA47729721D3E006C953E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3DFA47829721D3E006C953E /* Build configuration list for PBXNativeTarget "Memorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DFA47929721D3E006C953E /* Debug */,
+				F3DFA47A29721D3E006C953E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3DFA45C29721D3C006C953E /* Project object */;
+}
